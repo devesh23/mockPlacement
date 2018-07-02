@@ -1,0 +1,21 @@
+{
+  "name": "mockplacement",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "angular": "^1.7.2",
+    "angular-animate": "^1.7.2",
+    "angular-aria": "^1.7.2",
+    "angular-material": "^1.1.9",
+    "angular-messages": "^1.7.2",
+    "angular-ui-router": "^1.0.18",
+    "http-server": "^0.11.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "http-server ./ -a localhost -p 8000 -c-1",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

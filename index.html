@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en" >
+  <head>
+    <meta charset="utf-8">
+
+    <title>NITRR Mock Placements</title>
+
+
+    <!-- Style Sheet Import -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Style Sheet Import End -->
+
+    <!-- Angular Imports -->
+	<link rel="stylesheet" href="node_modules/angular-material/angular-material.css">
+    <script src="node_modules/angular/angular.js"></script>
+	<script src="node_modules/angular-aria/angular-aria.js"></script>
+	<script src="node_modules/angular-animate/angular-animate.js"></script>
+	<script src="node_modules/angular-messages/angular-messages.js"></script>
+	<script src="node_modules/angular-material/angular-material.js"></script>
+	<script src="node_modules/angular-ui-router/release/angular-ui-router.js"></script>
+	<script src="app/app.js"></script>
+	<!-- Angular Import End -->
+
+  <!-- Angular Controller Import Start -->
+  <script src="controllers/startTestController.js"></script>
+  <script src="controllers/loginController.js"></script>
+  <!-- Angular Controller Import End -->
+
+  </head>
+  <body ng-app="mockPlacementApp">
+  		<div class="completeFill" layout="column" flex layout-wrap>
+         <header layout="row" layout-align="center start" flex="15">
+          <md-toolbar class="md-scroll-shrink">
+            <div layout="row" layout-align="center center" flex>
+                <div layout="row" layout-align="left center" flex layout-wrap>
+                  <div layout="row" layout-align="end center" flex="10" layout-padding>
+                    <img src="images/logo.png" class="logoStyle"> 
+                  </div>        
+                  <div layout="row" layout-align="left" flex="90">
+                  <div layout="column" layout-align="left" flex>
+                    <span class="mdTitle">प्रशिक्षण और स्थनन विभाग</span>
+                    <span class="mdTitle">Department of Training and Placement </span>
+                    <span class="mdTitle">राष्ट्रीय प्रौद्योगिकी संस्थान, रायपुर</span>
+                    <span class="mdTitle">National Institute of Technology, Raipur</span>
+                    <span class="mdTitle">(An Institute of National Importance)</span>
+                  </div>
+                </div>
+                 </div>
+            </div>
+          </md-toolbar>
+        </header>
+  			<ui-view layout="row" layout-align="center" flex="75">
+
+  			</ui-view>
+        <footer layout="row" layout-align="center end" flex="10">
+          <md-toolbar class="md-scroll-shrink">
+            <div layout="row" layout-align="center center" flex>
+              &copy; Department of Training and Placement
+            </div>
+          </md-toolbar>
+        </footer>
+  		</div>
+      
+  </body>
+</html>
