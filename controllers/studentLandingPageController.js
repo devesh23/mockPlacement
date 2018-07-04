@@ -1,6 +1,6 @@
 var mockPlacementApp = angular.module('mockPlacementApp');
 
-mockPlacementApp.controller('loginController',['$scope','$state', function($scope,$state){
+mockPlacementApp.controller('studentLandingPageController',['$scope', function($scope){
 
 		$scope.openLandingPage = function(){
 			
